@@ -1,0 +1,39 @@
+{
+  "name": "health-care-system",
+  "version": "1.0.0",
+  "description": "A comprehensive digital healthcare platform designed to revolutionize hospital bed management, patient admissions, and healthcare service delivery.",
+  "main": "new final health&care/Health&care/Hospital-Bed-Managment/index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "build": "cd \"new final health&care/Health&care/Hospital-Bed-Managment\" && npx tailwindcss -i ./css/input.css -o ./css/output.css",
+    "watch": "cd \"new final health&care/Health&care/Hospital-Bed-Managment\" && npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "dev": "npm run watch"
+  },
+  "keywords": [
+    "healthcare",
+    "hospital-management",
+    "bed-management",
+    "patient-registration",
+    "medical-system",
+    "tailwindcss",
+    "responsive-design"
+  ],
+  "author": "Ayush Jaiswal <ayushjaiswal21@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushjaiswal21/Health-Care.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayushjaiswal21/Health-Care/issues"
+  },
+  "homepage": "https://github.com/ayushjaiswal21/Health-Care#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
